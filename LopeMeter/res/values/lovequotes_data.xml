@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="lovequotes_quotes">
+		<item>lovequotes1</item>
+		<item>lovequotes2</item>
+		<item>lovequotes3</item>
+		<item>lovequotes4</item>
+		<item>lovequotes5</item>
+		<item>lovequotes6</item>
+		<item>lovequotes7</item>
+		<item>lovequotes8</item>
+		<item>lovequotes9</item>
+		<item>lovequotes10</item>
+	</string-array>
+	<string-array name="lovequotes_id">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+
+	</string-array>
+
+</resources>

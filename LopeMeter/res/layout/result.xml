@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <!-- include Header -->
+
+    <include
+        android:id="@+id/headerlayout"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <!-- Cloud of Heart -->
+
+            <ImageView
+                android:id="@+id/ivcol"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/subheader" />
+
+            <!-- Relative Layout Starts -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/llCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/ivHeart"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/lm_logo"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tvResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/ivHeart"
+                        android:capitalize="words"
+                        android:gravity="center"
+                        android:text="Large Textaaaaaaaaaaaaaaaaaaaa"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="24dp"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/llCenter"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/customsharebtn"
+                    android:onClick="btnShareClicked" />
+
+                <!-- admob -->
+
+                <com.google.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+                    android:id="@+id/adView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/btnShare"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="a14f16a3fbaee19" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

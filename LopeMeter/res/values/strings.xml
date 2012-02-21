@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LoveMeterActivity!</string>
+    <string name="app_name">LopeMeter</string>
+
+    <color name="appColor">#df262c</color>
+
+    <string name="getstarted">        
+     <![CDATA[
+		<html>
+		 <head></head>
+		 <body style="text-align:justify;color:black;background-color:white;font-family:sans;">
+		  1.As simple as it sounds, enter the name of two person to find the love affinity of first person to second person.
+			</br>
+		  2.Swap the names to find the love affinity of the second person to the first person.
+			</br> 
+		  3.Use the real names, nick names or the names you are more comfortable calling. Its a game. FUN. 
+		 </body>
+		</html>
+	]]>
+    </string>
+    
+    <string name="calculation">        
+     <![CDATA[
+		<html>
+		 <head></head>
+		 <body style="text-align:justify;color:black;background-color:white;">
+		 It is strongly believed that the entire universe is composed of mathematical patterns and everything is expressed in numeric form. The numbers communicate universal vibrations.In this form of name compatibility, the number of occurrence of a particular letter is taken in account for the compatibility calculation. Each letter is arranged in a particular manner and counted depending on the number of times it appears.Numbers express more than we generally realize, and this tool helps us understand our cosmic vibrations and gives a deeper awareness about life.
+		 </body>
+		</html>
+	]]>
+    </string>
+    
+    <string name="requirements">        
+     <![CDATA[
+		<html>
+		 <head></head>
+		 <body style="text-align:justify;color:black;background-color:white;">
+		 The LoveMeter App should be compatible with the most Android device running Android 2.2 or later.
+		 </body>
+		</html>
+	]]>
+    </string>
+
+</resources>
